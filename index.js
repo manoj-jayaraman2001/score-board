@@ -52,4 +52,6 @@ function g3(){
 function reset(){
     homeScore.value = 0;
     guestScore.value = 0;
+    document.getElementById("guest-score").style.boxShadow = "0px 0px 0px green";
+    document.getElementById("home-score").style.boxShadow = "0px 0px 0px green";
 }
