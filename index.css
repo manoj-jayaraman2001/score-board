@@ -1,0 +1,83 @@
+@font-face{
+    font-family: 'cursed-timer';
+    src: url('CursedTimerULiL.ttf');
+}
+body {
+    margin: 0;
+    background: #1B244A;
+}
+p{
+    color: #EEEEEE;
+    font-family: 'Verdana'; 
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 21px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score{
+    background: black;
+    border: none;
+    height: 120px;
+    width: 155px;
+    border-radius: 5px;
+    font-family: "cursed-timer";
+    text-align: center;
+    color: #F94F6D;
+    font-size: 90px;
+    padding-top : 18px;
+
+}
+
+.score-btns{
+    display: flex;
+    width: 155px;
+    margin-top: 25px;
+    justify-content: space-around;
+    border-radius: 5px;
+    
+}
+.btn{
+    background: transparent;
+    color: #9AABD8;
+    height: 45px;
+    width: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400px;
+    padding-top: 7px;
+    font-family: "cursed-timer";
+    cursor: pointer;
+}
+
+#new-game{
+  text-align: center;
+  margin-top: 50px;
+}
+#reset{
+    height: 50px;
+    width: 120px;
+    border-radius: 25px;;
+    border: none;
+    font-size: 18px;
+    font-family: "verdana";
+    background: green;
+    color: white;
+    text-shadow: 0 0 4px black;
+    cursor: pointer;
+}
+
+#reset:hover{
+    background: #F94F6D;
+}
